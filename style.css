@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 260px;
+    background-color: rgb(0, 0, 0);
+}
+h1{
+    padding-top: 30px;
+    font-family: 'Passion One', cursive;
+    text-align: center;
+    color: white;
+    font-size: 8vw;
+}
+#link{
+    padding-top: 5px;
+    color: rgb(255, 255, 255);
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+}
+.text{
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.754);
+    font-family: 'Sriracha', cursive;
+    font-size: 3.2vw;
+    line-height: 2em;
+    padding-top: 5vh;
+    padding-left: 10vh;
+    padding-bottom: 15vh;
+}
+.image{
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.image p{
+    font-family: 'Sriracha', cursive;
+    margin: 10vh 3vh;
+    padding: 3vh;
+    display: inline-block;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.573);
+    font-size: 3.4vw;
+    line-height: 2em;
+    border-radius: 15px;
+
+}
+.image2{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.image2 p{
+    font-family: 'Sriracha', cursive;
+    margin: 10vh 3vh;
+    padding: 3vh;
+    display: inline-block;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.573);
+    font-size: 3.4vw;
+    line-height: 2em;
+    border-radius: 15px;
+}
+footer{
+    background-color: rgb(0, 0, 0);
+}
+footer p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 1.3em;
+
+}
+footer a{
+    color: rgb(247, 247, 247);
+    text-decoration: none;
+}
